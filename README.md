@@ -1,6 +1,12 @@
 # Vue Segmented-Control
 Segmented control for Vue.js
 
+![Vue Segmented Control visual](https://raw.githubusercontent.com/Pandazaur/vue-segmented-control/master/exemple.png)
+
+## Demo
+
+[![Demo on codesandbox.io](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/n4nxjwz17j)
+
 ## Installation
 
 ```
@@ -32,8 +38,8 @@ export default {
     data () {
         return {
             options: [
-                { label: 'Red', value: 'red' }
-                { label: 'Blue', value: 'blue' }
+                { label: 'Red', value: 'red' },
+                { label: 'Blue', value: 'blue' },
                 { label: 'Green', value: 'green' }
             ]
         }
