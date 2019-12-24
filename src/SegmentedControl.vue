@@ -34,12 +34,20 @@ export default {
         multiple: {
             type: Boolean,
             default: false
-        }
+        },
+	defaultSelected : {
+		type : Object,
+		default : {}
+	},
     },
     data () {
         return {
             optionsSelected: []
         }
+    },
+    created(){
+
+	this.onSelect(this.defaultSelected)
     },
     computed: {
         segmentedControlStyle: function () {

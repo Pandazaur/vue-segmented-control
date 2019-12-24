@@ -25,6 +25,7 @@ npm install vue-segmented-control
         active-color="#333"
         :multiple="false"
         @select="onSelect"
+        :defaultSelected="{value:'val',label:'label'}"
     />
 </template>
 ```
